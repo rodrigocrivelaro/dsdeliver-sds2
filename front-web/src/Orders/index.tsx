@@ -8,7 +8,7 @@ import OrderLocation from './OrderLocation';
 
 function Orders() {
     const [products, setProducts] = useState<Product[]>([]);
-    const [orderLocation, setOrderLocation] = useState<OrderLocationData>({});
+    const [orderLocation, setOrderLocation] = useState<OrderLocationData>();
 
     useEffect(() => {
         fetchProducts()
