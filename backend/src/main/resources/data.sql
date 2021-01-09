@@ -6,8 +6,8 @@ INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Risoto Fun
 INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Espaguete', 35.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_espaguete.jpg', 'Macarrão fresco espaguete com molho especial e tempero da casa.');
 INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Fusili', 38.0, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_fusili.jpg', 'Macarrão fusili com toque do chef e especiarias.');
 INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Penne', 37.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg', 'Macarrão penne fresco ao dente com tempero especial.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Mussarela', 49.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/pizza_bacon.jpg', 'Pizza mussarela, orégano, molho especial e tempero da casa.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Calabresa', 49.9, 'https://raw.githubusercontent.com/rodrigocrivelaro/dsdeliver-sds2/tree/main/front-web/public/assets/pizza_calabresa.jpg', 'Pizza de calabresa com mussarela, orégano, molho especial e tempero da casa.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Mussarela', 49.9, 'https://raw.githubusercontent.com/rodrigocrivelaro/dsdeliver-sds2/main/front-web/public/assets/pizza_mussarela.jpeg', 'Pizza mussarela, orégano, molho especial e tempero da casa.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Calabresa', 49.9, 'https://raw.githubusercontent.com/rodrigocrivelaro/dsdeliver-sds2/main/front-web/public/assets/pizza_calabresa.jpg', 'Pizza de calabresa com mussarela, orégano, molho especial e tempero da casa.');
 
 
 INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T10:00:00Z');
